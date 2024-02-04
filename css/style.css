@@ -1,0 +1,438 @@
+/* ______FONTS______ */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap'); */
+
+/* @font-face {
+	font-family: "Lato";
+	src: url(../fonts/lato/Lato-Regular.woff2) format(woff2), url(../fonts/lato/Lato-Regular.woff) format(woff);
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url(../fonts/lato/Lato-Bold.woff2) format(woff2), url(../fonts/lato/Lato-Bold.woff) format(woff);
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url(../fonts/lato/Lato-Black.woff2) format(woff2), url(../fonts/lato/Lato-Black.woff) format(woff);
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap');
+
+@font-face {
+	font-family: "CircularStd";
+	src: url(../fonts/circular/CircularStd-Book.woff2) format(woff2), url(../fonts/circular/CircularStd-Book.woff) format(woff);
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "CircularStd";
+	src: url(../fonts/circular/CircularStd-Medium.woff2) format(woff2), url(../fonts/circular/CircularStd-Medium.woff) format(woff);
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "CircularStd";
+	src: url(../fonts/circular/CircularStd-Bold.woff2) format(woff2), url(../fonts/circular/CircularStd-Bold.woff) format(woff);
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "CircularStd";
+	src: url(../fonts/circular/CircularStd-Black.woff2) format(woff2), url(../fonts/circular/CircularStd-Black.woff) format(woff);
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+/* =================Властивості Тексту================== */
+/* .page {
+	font-family: "Lato";
+	font-size: 20px;
+	font-style: italic;
+}
+.page-title {
+	font-family: "Roboto";
+	font-size: 40px;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+	color: #fff;
+	text-shadow: 1px -1px 15px #cc00ff, 2px 2px 2px #0011ff;
+	text-transform: uppercase;
+	line-height: 2;
+	letter-spacing: 5px;
+	word-spacing: 30px;
+}
+.page-text {
+	color: #cf0505;
+	text-align: justify; 
+	text-transform: capitalize;
+	line-height: 1.5;
+	text-indent: 30px;
+	white-space:  nowrap;
+}
+
+
+.page-text span{
+text-decoration: line-through;
+text-transform: none;
+} */
+
+
+
+/* =================Властивості Блоків================== */
+/* .block__1 {
+	background-color: #a770ff;
+	padding: 20px 10px 40px 60px;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 40px;
+	padding-left: 60px;
+	padding-top: 5%;
+	padding-right: 6%;
+	padding-bottom: 4%;
+	padding-left: 10%;
+	width: 90%;
+}
+
+.block__2 {
+	background-color: #ff9d70;
+	margin: 20px 30px 15px 5%;
+	margin-top: 20px;
+	margin-right: -30px;
+	margin-bottom: 15px;
+	margin-left: 5%;
+	width: 800px;
+} */
+
+
+
+
+.header {
+	font-family: "CircularStd";
+	font-weight: 900;
+	font-style: normal;
+			color: #4000ff;
+			font-size: 36px;
+			line-height: 2;
+}
+
+
+
+.page {
+	font-family: "CircularStd";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 1.2;
+}
+.tangerine {
+}
+.tangerine__title {
+	font-family: "Rubik Glitch Pop";
+	font-weight: 400;
+	color: #ff3c00;
+	font-size: 55px;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 10px;
+}
+.tangerine__info {
+}
+.info {
+}
+.info__text {
+	line-height: 1.2;
+}
+.info__text span{
+	text-transform: uppercase;
+	color: #ff3c00;
+	font-weight: 700;
+}
+.info__image {
+	width: 800px;
+}
+.info__content {
+	text-align: right;
+}
+.content {
+}
+.content__title {
+	font-weight: 700;
+	font-size: 36px;
+	letter-spacing: 5px;
+	color: #f94e6b;
+}
+.content__link {
+	color: green;
+	text-decoration: underline;
+}
+
+.content__link ul {
+	color: red;
+	text-decoration: underline;
+}
+.content__link {
+}
+.tangerine__name {
+}
+.name {
+	background-color: #ff3c00;
+	height: 250px;
+	width: 900px;
+	padding: 10px;
+	margin-left: 50px;
+}
+.name__title {
+	font-weight: 700;
+	font-size: 45px;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 10px;
+	color: #fff;
+	text-transform: uppercase;
+	text-shadow: 0px 2px 20px #3fa9ff, 1px 1px 2px #000;
+}
+.name__text {
+	text-align: justify;
+}
+.tangerine__description {
+}
+.description {
+	background-color: #0073ff;
+	width: 1000px;
+	padding: 20px;
+	margin-top: 10px;
+}
+.description__title {
+	font-weight: 700;
+	font-size: 45px;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 10px;
+	color: #f3431b;
+	text-transform: uppercase;
+	text-shadow: 0px 2px 13px #ffffff, 1px 1px 2px #000;
+}
+.description__text {
+	text-indent: 30px;
+	text-transform: capitalize;
+}
+.description__image {
+	width: 600px;
+	margin: 20px;
+}
+.tangerine__chemical-composition {
+}
+.chemical-composition {
+	background-color: #40ff00;
+	width: 800px;
+	padding: 20px;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+.chemical-composition__title {
+	font-weight: 700;
+	font-size: 45px;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 10px;
+	color: #0073ff;
+	text-transform: uppercase;
+	text-shadow: 0px 2px 13px #ffffff, 1px 1px 2px #ff6f00;
+}
+.chemical-composition__text {
+	color: #ffffff;
+	text-indent: 30px;
+	word-spacing: 30px;
+}
+.tangerine__ecology {
+}
+.ecology {
+	background-color: #f2ff00;
+	width: 900px;
+	padding: 20px;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.ecology__title {
+	font-weight: 700;
+	font-size: 45px;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 10px;
+	color: #0a9d00;
+	text-transform: uppercase;
+	text-shadow: 0px 2px 13px #1aabffd7, 1px 1px 2px #ffffff;
+}
+.ecology__text {
+	text-indent: 30px;
+	white-space: normal;
+}
+.ecology__image {
+	width: 600px;
+	margin: 20px 0px 10px 125px;
+}
+.tangerine__spread {
+}
+.spread {
+	background-color: #dd0021;
+	/* width: 900px; */
+	padding: 20px;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.spread__title {
+	font-weight: 700;
+	font-size: 45px;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: -6px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-shadow: 1px 2px 13px #0091fffb, 1px 1px 3px #000000;
+}
+.spread__text {
+	text-indent: 20px;
+	white-space: nowrap;
+}
+.tangerine__application {
+}
+.application {
+	background-color: #00dda9;
+	width: 900px;
+	padding: 20px;
+	margin-top: 20px;
+	margin-left: 50px;
+	text-indent: 50px;
+}
+
+.application p{
+	color: aliceblue;
+	text-align: justify;
+	line-height: 1.3;
+}
+
+.application h3{
+	text-align: center;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.4;
+	color: orangered;
+	text-shadow: 0px 0px 3px #000;
+	letter-spacing: 8px;
+	line-height: 2;
+}
+
+.application__title {
+	font-weight: 700;
+	font-size: 45px;
+	text-align: center;
+	line-height: 2.5;
+	letter-spacing: 16px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-shadow: 1px 2px 13px #0091fffb, 1px 1px 3px #ffffff;
+}
+.application__cooking {
+}
+.cooking {
+}
+.cooking__title {
+	
+}
+.cooking__text {
+	
+}
+.application__medicine {
+}
+.medicine {
+}
+.medicine__title {
+}
+.medicine__image {
+	width: 600px;
+	margin: 10%;
+	margin-left: 125px;
+}
+.medicine__text {
+}
+.application__industry {
+}
+.industry {
+}
+.industry__title {
+}
+.industry__text {
+}
+.application__gardening {
+}
+.gardening {
+}
+.gardening__title {
+}
+.gardening__text {
+}
+.gardening__subtitle {
+	text-align: right;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 1.4;
+	color: orangered;
+	text-shadow: 0px 0px 3px #000;
+	letter-spacing: 6px;
+	text-decoration: overline;
+	line-height: 1.3;
+}
+.tangerine__varieties {
+}
+.varieties {
+	background-color: #d97000;
+	width: 1000px;
+	padding: 2%;
+	margin-top: 20px;
+	margin-left: 25px;
+}
+.varieties__title {
+	font-weight: 700;
+	font-size: 45px;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 10px;
+	color: #000000;
+	text-transform: uppercase;
+	text-shadow: 0px 2px 13px #ffffffd7, 1px 1px 2px #ffffff;
+}
+.varieties__list {
+	text-shadow: 1px 1px 2px #ffffff;
+}
+.varieties__list mark{
+	text-shadow: 0px 0px 0px #ffffff;
+	text-decoration: line-through;
+}
+
+
+.footer {
+	font-family: "CircularStd";
+	font-weight: 900;
+	font-style: normal;
+			color: #4000ff;
+			font-size: 36px;
+			line-height: 2;
+}
